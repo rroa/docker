@@ -2,7 +2,7 @@ let express = require('express');
 let app = express();
 
 app.get('/', function(req, res){
-  res.send('Hello Docker');
+  res.send('Hello Azure');
 });
 
 let server = app.listen(3000, function(){
