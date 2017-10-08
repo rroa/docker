@@ -1,4 +1,4 @@
-FROM node:7.0
+FROM node:boron
 WORKDIR /app
 ADD . /app
 RUN npm install
